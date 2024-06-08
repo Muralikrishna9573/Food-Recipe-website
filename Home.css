@@ -1,0 +1,29 @@
+/* Home.css */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navbar-many {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar-many li {
+    color: white;
+    cursor: pointer;
+    margin: 0 1rem; /* Add margin for space between items */
+  }
+  
+  .navbar-many li:hover {
+    color: #ddd;
+  }
+  
+  .navbar-many a {
+    color: inherit; /* Inherit color from li */
+    text-decoration: none; /* Remove underline */
+  }
+      

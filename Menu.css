@@ -1,0 +1,55 @@
+/* Menu.css */
+.menu {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .menu-section {
+    margin-bottom: 20px;
+  }
+  
+  .menu-section h2 {
+    color: #666;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    align-items: flex-start;
+  }
+  
+  .menu-item:last-child {
+    border-bottom: none;
+  }
+  
+  .menu-item-name {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .menu-item-description {
+    color: #888;
+    display: block;
+  }
+  
+  .menu-item-price {
+    color: #888;
+    margin-left: 20px;
+    white-space: nowrap;
+  }
+  
